@@ -2,17 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputContainer{
+padding-top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btnSubmit{
+  height: 32px;
+  width: 32px;
+  background-color: #EBD8D0;
+  color: #D3AB9E;
+  border: none;
+  margin-left: 10px;
+  
+  border-radius: 23px;
+  font-size: 20px;
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,11 +27,47 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.checked-item {
+  text-decoration: line-through;
+  color: green;
+}
 
 .App-link {
   color: #61dafb;
 }
-
+.inputBlock{
+  height: 27px;
+  width: 200px;
+  border-radius: 12px;
+  border-width: 2px;
+  border: 2px solid;
+  border-color: #D3AB9E;
+}
+.containerToDoList{
+  display: flex;
+    justify-content: center;
+}
+.todolist{
+  background-color: white;
+  border-radius: 30px;
+  margin: 5px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  border: 2px solid;
+  border-color: #D3AB9E;
+  font-size: 20px;
+}
+.button-add{
+  background-color: transparent;
+  border: none;
+}
+img{
+  height: 16px;
+  
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

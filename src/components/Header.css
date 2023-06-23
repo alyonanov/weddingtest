@@ -1,0 +1,27 @@
+.header{
+    
+}
+.headerBlock{
+    background-color: #D3AB9E;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.headerBlock p{
+    font-size: 36px;
+    font-family: monospace;
+    color: #EBD8D0;
+    padding-left: 270px;
+}
+.btn-back{
+    margin-left: 50px;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: #EBD8D0;
+    color: #EBD8D0;
+    height: 30px;
+    font-size: 16px;
+}
