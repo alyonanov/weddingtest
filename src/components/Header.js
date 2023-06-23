@@ -6,7 +6,6 @@ const Header = () =>{
     const navigate = useNavigate();
     const location = useLocation();
     const isHomePage = location.pathname === '/';
-
     return(
     <div className="header">
         <div className='headerBlock'>
